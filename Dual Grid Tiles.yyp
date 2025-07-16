@@ -1,0 +1,47 @@
+{
+  "$GMProject":"v1",
+  "%Name":"Dual Grid Tiles",
+  "AudioGroups":[
+    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.13.1.193",
+  },
+  "name":"Dual Grid Tiles",
+  "resources":[
+    {"id":{"name":"ObDualGridController","path":"objects/ObDualGridController/ObDualGridController.yy",},},
+    {"id":{"name":"RmTesh","path":"rooms/RmTesh/RmTesh.yy",},},
+    {"id":{"name":"neighbor_index","path":"scripts/neighbor_index/neighbor_index.yy",},},
+    {"id":{"name":"SpDirt","path":"sprites/SpDirt/SpDirt.yy",},},
+    {"id":{"name":"SpDirtOnGrass","path":"sprites/SpDirtOnGrass/SpDirtOnGrass.yy",},},
+    {"id":{"name":"SpGrass","path":"sprites/SpGrass/SpGrass.yy",},},
+    {"id":{"name":"SpStone","path":"sprites/SpStone/SpStone.yy",},},
+    {"id":{"name":"SpStoneOnDirt","path":"sprites/SpStoneOnDirt/SpStoneOnDirt.yy",},},
+    {"id":{"name":"SpStoneOnGrass","path":"sprites/SpStoneOnGrass/SpStoneOnGrass.yy",},},
+    {"id":{"name":"SpTileBase","path":"sprites/SpTileBase/SpTileBase.yy",},},
+    {"id":{"name":"SpWater","path":"sprites/SpWater/SpWater.yy",},},
+    {"id":{"name":"SpWoV","path":"sprites/SpWoV/SpWoV.yy",},},
+    {"id":{"name":"TiBase","path":"tilesets/TiBase/TiBase.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"RmTesh","path":"rooms/RmTesh/RmTesh.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}
