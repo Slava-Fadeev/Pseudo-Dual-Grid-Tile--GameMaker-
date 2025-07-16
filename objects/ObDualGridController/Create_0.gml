@@ -43,3 +43,8 @@ Camera	= view_camera[0];
 TSWidth	= camera_get_view_width(Camera);
 TSHeight = camera_get_view_height(Camera);
 TSUpdate = false;
+
+TSUpdateX = [];
+TSUpdateY = [];
+
+application_surface_enable(false);

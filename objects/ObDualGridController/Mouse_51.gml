@@ -6,5 +6,10 @@ if (TileBase){
 	var _my = mouse_y div TILE_SIZE;
 }
 
-tilemap_set(TileLayer, tile.water, _mx, _my);
-TSUpdate = true;
+if (tilemap_get(TileLayer, _mx, _my) != Tile){
+	tilemap_set(TileLayer, tile.water, _mx, _my);
+	TSUpdate = true;
+
+	array_push(TSUpdateX, _mx);
+	array_push(TSUpdateY, _my);
+}
